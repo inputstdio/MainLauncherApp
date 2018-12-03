@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MemberInsertActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center_horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/circleImage"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/android"
+                app:civ_border_color="#78c157"
+                app:civ_border_width="0dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/btn_shot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="click_Btn"
+                android:text="@string/btn_shot"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_find"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="click_Btn"
+                android:text="@string/btn_find"
+                android:textAllCaps="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/insert_id"
+                    android:textAllCaps="false" />
+
+                <EditText
+                    android:hint="@string/id_hint"
+                    android:id="@+id/editText_id"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/insert_name"
+                    android:textAllCaps="false" />
+
+                <EditText
+                    android:id="@+id/editText_name"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/insert_pass"
+                    android:textAllCaps="false" />
+
+                <EditText
+                    android:id="@+id/editText_pass"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="text" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/btn_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="click_Btn"
+                android:text="@string/btn_save" />
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:onClick="click_Btn"
+                android:text="@string/btn_cancel" />
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
