@@ -35,7 +35,6 @@
                 android:id="@+id/btn_shot"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:enabled="false"
                 android:onClick="click_Btn"
                 android:text="@string/btn_shot"
                 android:textAllCaps="false" />
@@ -44,7 +43,6 @@
                 android:id="@+id/btn_find"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:enabled="false"
                 android:onClick="click_Btn"
                 android:text="@string/btn_find"
                 android:textAllCaps="false" />
