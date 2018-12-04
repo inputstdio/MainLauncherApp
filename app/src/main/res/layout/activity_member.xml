@@ -21,18 +21,22 @@
                 android:id="@+id/btn_insert"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:background="@drawable/rounded_button"
                 android:onClick="click_Btn"
                 android:text="@string/btn_insert"
-                android:textAllCaps="false" />
+                android:textAllCaps="false"
+                android:textColor="#ffffff" />
 
             <Button
                 android:id="@+id/btn_close"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
+                android:background="@drawable/rounded_button"
                 android:onClick="click_Btn"
                 android:text="@string/btn_close"
-                android:textAllCaps="false" />
+                android:textAllCaps="false"
+                android:textColor="#ffffff" />
         </LinearLayout>
 
         <ListView
