@@ -4,19 +4,18 @@
     android:layout_height="?android:attr/listPreferredItemHeight"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <!--<ImageView-->
-        <!--android:id="@+id/member_image"-->
-        <!--android:layout_width="70dp"-->
-        <!--android:layout_height="70dp"-->
-        <!--android:layout_marginRight="3dp"-->
-        <!--android:src="@mipmap/ic_launcher" />-->
+    <!--<ImageView
+        android:id="@+id/member_image"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginRight="3dp"
+        android:src="@mipmap/ic_launcher" />-->
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/circleImage"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginEnd="10dp"
         android:src="@mipmap/ic_launcher"
-        android:layout_marginEnd="7dp"
         app:civ_border_color="#78c157"
         app:civ_border_width="3dp" />
 
