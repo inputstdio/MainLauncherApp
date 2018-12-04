@@ -14,6 +14,7 @@
         android:id="@+id/circleImage"
         android:layout_width="60dp"
         android:layout_height="60dp"
+        android:layout_marginEnd="10dp"
         android:src="@mipmap/ic_launcher"
         android:layout_marginEnd="7dp"
         app:civ_border_color="#78c157"
