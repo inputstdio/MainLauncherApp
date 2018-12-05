@@ -23,6 +23,7 @@
     <string name="btn_save">Save</string>
     <string name="btn_update">Update</string>
     <string name="btn_cancel">Cancel</string>
+    <string name="btn_delete">Delete</string>
     <string name="btn_find">Find</string>
     <string name="intent_textView">result >></string>
     <string name="loading">Loading...</string>
