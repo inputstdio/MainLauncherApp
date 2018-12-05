@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">MainLauncherApp</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_login">Login</string>
+    <string name="action_help">Help</string>
     <string name="str1">Intent</string>
     <string name="str2">IntentForResult</string>
     <string name="str3">AsyncTask</string>
@@ -24,6 +25,7 @@
     <string name="btn_update">Update</string>
     <string name="btn_cancel">Cancel</string>
     <string name="btn_delete">Delete</string>
+    <string name="btn_join">Join</string>
     <string name="btn_find">Find</string>
     <string name="intent_textView">result >></string>
     <string name="loading">Loading...</string>
